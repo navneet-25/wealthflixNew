@@ -99,7 +99,7 @@ export default function HeroFiveComp() {
                 position={"relative"}
                 justifyContent={"center"}
                 alignItems={"center"}
-                display={["none", "block"]}
+                display={["none", "flex"]}
               >
                 <Box
                   p={16}
@@ -172,7 +172,7 @@ export default function HeroFiveComp() {
                 position={"relative"}
                 justifyContent={"center"}
                 alignItems={"center"}
-                display={["none", "block"]}
+                display={["none", "flex"]}
               >
                 <Box
                   p={16}
@@ -245,7 +245,80 @@ export default function HeroFiveComp() {
                 position={"relative"}
                 justifyContent={"center"}
                 alignItems={"center"}
-                display={["none", "block"]}
+                display={["none", "flex"]}
+              >
+                <Box
+                  p={16}
+                  backgroundColor={"#222326"}
+                  // height={"330px"}
+                  width={"612px"}
+                  borderRadius={10}
+                  zIndex={1}
+                >
+                  <Text fontSize={24} fontWeight={"600"}>
+                    “I’ve learned a positively immeasurable amount of things
+                    from Timbaland and Natalie Portman. It gave me this sense of
+                    possibility. Like I can actually do it. I can get a
+                    Billboard hit single, and it’s not that far away.”
+                  </Text>
+                  <Flex mt={2} gap={2} fontSize={12} fontWeight={"600"}>
+                    <Text>Robert</Text>
+                    <Text>Entertainer, USA</Text>
+                  </Flex>
+                </Box>
+                <Image
+                  height={[100, 420]}
+                  borderRadius={12}
+                  position={"relative"}
+                  left={"-2rem"}
+                  src="https://www.masterclass.com/cdn-cgi/image/width=1920,quality=75,format=webp/https://static.masterclass.com/studentStories-taylor-3x4.jpeg"
+                />
+              </Flex>
+              <Box
+                position={"relative"}
+                justifyContent={"center"}
+                alignItems={"center"}
+                display={["block", "none"]}
+              >
+                <Image
+                  height={[240, 420]}
+                  w={"100%"}
+                  objectFit={"cover"}
+                  // borderRadius={12}
+                  borderTopEndRadius={12}
+                  borderTopLeftRadius={12}
+                  // position={"relative"}
+                  // left={"-2rem"}
+                  src="https://www.masterclass.com/cdn-cgi/image/width=1920,quality=75,format=webp/https://static.masterclass.com/studentStories-taylor-3x4.jpeg"
+                />
+                <Box
+                  p={4}
+                  backgroundColor={"#222326"}
+                  // height={"330px"}
+                  // width={"612px"}
+                  borderBottomRadius={10}
+                  // borderRadius={10}
+                  zIndex={1}
+                >
+                  <Text fontSize={16} fontWeight={"600"}>
+                    “I’ve learned a positively immeasurable amount of things
+                    from Timbaland and Natalie Portman. It gave me this sense of
+                    possibility. Like I can actually do it. I can get a
+                    Billboard hit single, and it’s not that far away.”
+                  </Text>
+                  <Flex mt={2} gap={2} fontSize={12} fontWeight={"600"}>
+                    <Text>Robert</Text>
+                    <Text>Entertainer, USA</Text>
+                  </Flex>
+                </Box>
+              </Box>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Flex
+                position={"relative"}
+                justifyContent={"center"}
+                alignItems={"center"}
+                display={["none", "flex"]}
               >
                 <Box
                   p={16}

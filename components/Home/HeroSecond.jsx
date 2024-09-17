@@ -49,8 +49,16 @@ export default function HeroSecondComp() {
               <Image
                 borderRadius={8}
                 height={[600, "100%"]}
+                display={["block", "none"]}
                 src={[
                   "https://www.masterclass.com/course-images/attachments/9tidfy6807o8us1jswo8yng4rnqj?width=640&quality=75&format=webp",
+                ]}
+              />
+              <Image
+                borderRadius={8}
+                height={[600, "100%"]}
+                display={["none", "block"]}
+                src={[
                   "https://www.masterclass.com/course-images/attachments/h8x8e80nxdsimxfo6zztu9hmkxcc?width=3840&quality=75&format=webp",
                 ]}
               />
