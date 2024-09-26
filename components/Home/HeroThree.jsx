@@ -56,8 +56,8 @@ export default function HeroThreeComp() {
             fontWeight={["700"]}
             lineHeight={"1"}
           >
-            <Text>A dose of inspiration,</Text>
-            <Text>whenever you need it.</Text>
+            <Text>Get exclusive access to celebrity mentorship and networking opportunities.</Text>
+            {/* <Text>whenever you need it.</Text> */}
           </Box>
         </Flex>
         <Flex

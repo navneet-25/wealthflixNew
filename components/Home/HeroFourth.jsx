@@ -42,7 +42,7 @@ export default function HeroThreeComp() {
             fontWeight={["700"]}
             lineHeight={"1"}
           >
-            <Text>Start your journey today.</Text>
+            <Text>Scale Your Business.</Text>
           </Box>
         </Flex>
         <Box textAlign={"center"}>

@@ -33,11 +33,11 @@ export default function HeroFirstComp() {
           <Text
             textTransform={"uppercase"}
             fontWeight={"800"}
-            fontSize={["4rem", "7rem"]}
+            fontSize={["3rem", "5rem"]}
             lineHeight={"0.85"}
             letterSpacing={"0.01em"}
           >
-            Learn from the best, be your best.
+           Building The Next Generation of Entrepreneurs
           </Text>
           <Box my={5}>
             <Text fontSize={18}>
@@ -49,7 +49,8 @@ export default function HeroFirstComp() {
           {/*  */}
           <Box w={["100%", "80%"]}>
             <Box my={MARGIN_Y} fontSize={24} fontWeight={"600"}>
-              <Text>What brings you to MasterClass today?</Text>
+              <Text>Learn to build generational wealth
+              </Text>
             </Box>
             {/*  */}
             <Box my={MARGIN_Y} fontFamily={MONTSERRAT}>
@@ -86,50 +87,7 @@ export default function HeroFirstComp() {
               >
                 <Text>Develop my career or leadership skills</Text>
               </Box>
-              <Box
-                paddingX={7}
-                paddingY={3}
-                backgroundColor={"#222326"}
-                fontSize={[14, 16]}
-                fontWeight={"600"}
-                marginY={BOX_MARGIN_Y}
-                borderRadius={4}
-              >
-                <Text>Develop my career or leadership skills</Text>
-              </Box>
-              <Box
-                paddingX={7}
-                paddingY={3}
-                backgroundColor={"#222326"}
-                fontSize={[14, 16]}
-                fontWeight={"600"}
-                marginY={BOX_MARGIN_Y}
-                borderRadius={4}
-              >
-                <Text>Develop my career or leadership skills</Text>
-              </Box>
-              <Box
-                paddingX={7}
-                paddingY={3}
-                backgroundColor={"#222326"}
-                fontSize={[14, 16]}
-                fontWeight={"600"}
-                marginY={BOX_MARGIN_Y}
-                borderRadius={4}
-              >
-                <Text>Develop my career or leadership skills</Text>
-              </Box>
-              <Box
-                paddingX={7}
-                paddingY={3}
-                backgroundColor={"#222326"}
-                fontSize={[14, 16]}
-                fontWeight={"600"}
-                marginY={BOX_MARGIN_Y}
-                borderRadius={4}
-              >
-                <Text>Develop my career or leadership skills</Text>
-              </Box>
+            
             </Box>
             <Button>Continue</Button>
           </Box>

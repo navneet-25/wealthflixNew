@@ -33,8 +33,8 @@ export default function HeroSecondComp() {
             fontWeight={["700"]}
             lineHeight={"1"}
           >
-            <Text>Meet the world's best.</Text>
-            <Text>New classes added every month.</Text>
+            <Text>Join the largest gathering of the world's top celebrity investors and entrepreneurs</Text>
+            {/* <Text>New classes added every month.</Text> */}
           </Box>
         </Flex>
         <Grid
